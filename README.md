@@ -58,4 +58,4 @@ TODO:
 - [ ] Tests
 - [x] UI/UX
 - [x] Clean code
-- [ ] Downloadable bundle
+- [x] Downloadable bundles
