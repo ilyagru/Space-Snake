@@ -2,13 +2,14 @@
 
 A Desktop game built with [Electron-vue](https://github.com/SimulatedGREG/electron-vue) template.
 
-![Screenshot](screenshot.png "Screenshot")
+![Screenshot](/Screenshot.png?raw=true "Screenshot")
 
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
-![](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+[![](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Release](https://img.shields.io/github/release/Meadowcottage/Playcode-desktop.svg?style=flat-square)](https://github.com/Meadowcottage/Playcode-desktop/releases)
-[![Download](https://img.shields.io/badge/download-wavebox.io-brightgreen.svg)](https://wavebox.io/download/)
+[![](https://img.shields.io/badge/tests-not%20tested-red.svg)]()
+[![](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)]()
+[![](https://img.shields.io/badge/download-releases-brightgreen.svg)](https://github.com/ilyagru/Space-Snake/releases)
 
 ## Description
 
