@@ -1,0 +1,12 @@
+$color-primary-1: #fec180;
+$color-primary-2: #ff8993;
+
+$color-dark: #606c76;
+
+$gradient-primary: linear-gradient(to bottom right, $color-primary-1, $color-primary-2);
+$gradient-secondary: linear-gradient(to top left, $color-primary-1, $color-primary-2);
+
+$radius-primary: .4rem;
+
+$transition-primary: all 0.2s;
+$scale-coef: 0.9;

@@ -1,0 +1,11 @@
+@mixin gradient-text($gradient) {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin cell-image($url) {
+    background: url($url) #fff;
+    background-size: cover;
+    background-position: center;
+}
