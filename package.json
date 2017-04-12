@@ -1,5 +1,5 @@
 {
-  "name": "snake-app",
+  "name": "space-snake",
   "version": "0.0.0",
   "description": "An electron-vue project",
   "scripts": {

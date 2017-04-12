@@ -1,7 +1,7 @@
 {
-  "name": "snake-app",
+  "name": "space-snake",
   "version": "0.0.0",
-  "description": "An electron-vue project",
+  "description": "A Desktop game built with Electron-vue template.",
   "main": "./dist/main.js",
   "dependencies": {
     "vue": "^2.1.10",

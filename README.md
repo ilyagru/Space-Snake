@@ -1,16 +1,24 @@
-# snake-app
+# Space Snake
 
 A Desktop game built with [Electron-vue](https://github.com/SimulatedGREG/electron-vue) template.
+
+![Screenshot](screenshot.png "Screenshot")
+
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+![](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Release](https://img.shields.io/github/release/Meadowcottage/Playcode-desktop.svg?style=flat-square)](https://github.com/Meadowcottage/Playcode-desktop/releases)
+[![Download](https://img.shields.io/badge/download-wavebox.io-brightgreen.svg)](https://wavebox.io/download/)
 
 ## Description
 
 A desktop game Space Snake.
-Built with [Electron](https://electron.atom.io/) and [Vue.js](https://vuejs.org/).
-State Management – [Vuex](https://github.com/vuejs/vuex).
-Routing – [Vue-router](https://github.com/vuejs/vue-router).
-Bundling – [Webpack](https://webpack.github.io/).
-Styles – [SASS](http://sass-lang.com/).
-Tests – [Karma](https://karma-runner.github.io/1.0/index.html) + [Mocha](https://mochajs.org/).
+- Built with [Electron](https://electron.atom.io/) and [Vue.js](https://vuejs.org/).
+- State Management – [Vuex](https://github.com/vuejs/vuex).
+- Routing – [Vue-router](https://github.com/vuejs/vue-router).
+- Bundling – [Webpack](https://webpack.github.io/).
+- Styles – [SASS](http://sass-lang.com/).
+- Tests – [Karma](https://karma-runner.github.io/1.0/index.html) + [Mocha](https://mochajs.org/).
 
 
 ## Build Setup
