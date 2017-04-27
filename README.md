@@ -4,8 +4,8 @@ A Desktop game built with [Electron-vue](https://github.com/SimulatedGREG/electr
 
 ![Screenshot](/Screenshot.png?raw=true "Screenshot")
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
-[![](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)]()
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/ilyagru/Space-Snake/blob/master/LICENSE)
+[![](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]()
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![](https://img.shields.io/badge/tests-not%20tested-red.svg)]()
 [![](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)]()
@@ -59,3 +59,7 @@ TODO:
 - [x] UI/UX
 - [x] Clean code
 - [x] Downloadable bundles
+
+## License
+
+[MIT](https://github.com/ilyagru/Space-Snake/blob/master/LICENSE)
