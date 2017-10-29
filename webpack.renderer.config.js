@@ -20,10 +20,19 @@ let rendererConfig = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.s[a|c]ss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader'
+          use: [
+            'css-loader',
+            'sass-loader',
+            {
+              loader: 'sass-resources-loader',
+              options: {
+                resources: path.resolve(__dirname, 'app/src/renderer/styles/style.scss')
+              }
+            }
+          ]
         })
       },
       {
@@ -50,8 +59,8 @@ let rendererConfig = {
           loader: 'vue-loader',
           options: {
             loaders: {
-              sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1&data=@import "./app/src/renderer/styles/style"',
-              scss: 'vue-style-loader!css-loader!sass-loader?data=@import "./app/src/renderer/styles/style";'
+              scss: 'vue-style-loader!css-loader!sass-loader',
+              sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
             }
           }
         }
@@ -99,7 +108,7 @@ let rendererConfig = {
       'components': path.join(__dirname, 'app/src/renderer/components'),
       'renderer': path.join(__dirname, 'app/src/renderer')
     },
-    extensions: ['.js', '.vue', '.json', '.css', '.node'],
+    extensions: ['.js', '.vue', '.json', '.scss', '.node'],
     modules: [
       path.join(__dirname, 'app/node_modules'),
       path.join(__dirname, 'node_modules')
