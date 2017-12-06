@@ -32,6 +32,8 @@
 </script>
 
 <style lang="scss">
+    @import './styles/milligram';
+
     main {
         padding: 20px 20px 20px 20px;
     }

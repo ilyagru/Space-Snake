@@ -21,19 +21,16 @@ let rendererConfig = {
     rules: [
       {
         test: /\.s[a|c]ss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            'sass-loader',
-            {
-              loader: 'sass-resources-loader',
-              options: {
-                resources: path.resolve(__dirname, 'app/src/renderer/styles/style.scss')
-              }
-            }
-          ]
-        })
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader',
+          {
+          loader: 'sass-resources-loader',
+          options: {
+            resources: path.join(__dirname, 'app/src/renderer/styles/style.scss')
+          }
+        }]
       },
       {
         test: /\.html$/,
@@ -55,13 +52,20 @@ let rendererConfig = {
       },
       {
         test: /\.vue$/,
-        use: {
-          loader: 'vue-loader',
-          options: {
-            loaders: {
-              scss: 'vue-style-loader!css-loader!sass-loader',
-              sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-            }
+        loader: 'vue-loader',
+        options: {
+          loaders: {
+            scss: [
+              'vue-style-loader',
+              'css-loader',
+              'sass-loader',
+              {
+                loader: 'sass-resources-loader',
+                options: {
+                  resources: path.join(__dirname, 'app/src/renderer/styles/style.scss')
+                }
+              }
+            ],
           }
         }
       },

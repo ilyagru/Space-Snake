@@ -3,3 +3,4 @@ app/dist/**
 test/unit/coverage/**
 test/unit/*.js
 test/e2e/*.js
+webpack.**

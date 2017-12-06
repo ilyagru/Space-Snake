@@ -44,8 +44,6 @@
 </script>
 
 <style scoped lang="scss">
-    @import '../../styles/style';
-
     .leaderboard {
         overflow: scroll;
         max-height: 550px;

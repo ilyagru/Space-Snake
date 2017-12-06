@@ -22,8 +22,6 @@
 </script>
 
 <style scoped lang="scss">
-    @import '../../styles/style';
-
     #topbar {
         background-color: #fff;
         padding: 20px;
