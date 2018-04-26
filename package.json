@@ -1,6 +1,6 @@
 {
   "name": "space-snake",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "A Desktop game built with Electron-vue template.",
   "scripts": {
     "build": "node tasks/release.js",
@@ -21,6 +21,10 @@
   },
   "author": "Ilya Gruzhevski",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyagru/Space-Snake.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
@@ -36,7 +40,7 @@
     "css-loader": "^0.26.4",
     "del": "^2.2.2",
     "devtron": "^1.4.0",
-    "electron": "^1.7.9",
+    "electron": "^1.8.4",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
     "electron-packager": "^8.7.2",
