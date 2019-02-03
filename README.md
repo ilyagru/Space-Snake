@@ -10,6 +10,7 @@ A Desktop game built with [Electron-vue](https://github.com/SimulatedGREG/electr
 [![](https://img.shields.io/badge/tests-not%20tested-red.svg)]()
 [![](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue.svg)]()
 [![](https://img.shields.io/badge/download-releases-brightgreen.svg)](https://github.com/ilyagru/Space-Snake/releases)
+[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/173-shield.svg)](https://madewithvuejs.com/p/space-snake/shield-link)
 
 ## Description
 
