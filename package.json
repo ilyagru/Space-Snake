@@ -70,7 +70,7 @@
     "sass-loader": "^6.0.6",
     "sass-resources-loader": "^1.3.1",
     "style-loader": "^0.13.2",
-    "tree-kill": "^1.2.0",
+    "tree-kill": "^1.2.2",
     "url-loader": "^0.5.9",
     "vue-hot-reload-api": "^2.2.0",
     "vue-html-loader": "^1.2.4",
