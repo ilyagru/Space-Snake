@@ -40,7 +40,7 @@
     "css-loader": "^0.26.4",
     "del": "^2.2.2",
     "devtron": "^1.4.0",
-    "electron": "^1.8.4",
+    "electron": "^9.4.0",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
     "electron-packager": "^8.7.2",
