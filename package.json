@@ -43,7 +43,7 @@
     "electron": "^1.8.4",
     "electron-debug": "^1.4.0",
     "electron-devtools-installer": "^2.2.1",
-    "electron-packager": "^8.7.2",
+    "electron-packager": "^16.0.0",
     "electron-rebuild": "^1.6.0",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^6.2.1",
